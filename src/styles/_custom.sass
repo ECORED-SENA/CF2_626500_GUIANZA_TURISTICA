@@ -53,6 +53,8 @@
   max-width: 160px !important
 .img180
   max-width: 180px !important
+.img190
+  max-width: 190px !important
 .img200
   max-width: 200px !important
 .img250
@@ -105,6 +107,7 @@
     background-color: #C9D9C6
   &_7
     background-color: #FFD667
+    height: 70px
   &_8
     background-color: #EDEDED
   &_9
@@ -226,17 +229,23 @@
   width: 63px
   top: 14%
   left: 7%
+  @media screen and (max-width: 992px)
+    width: 51px
+    top: 4%
+    left: 9%
   @media screen and (max-width: 420px)
-    top: 20px
-    left: 23px
+    width: 30px;
+    top: 14px;
+    left: 22px;
   &_1
     position: absolute
     width: 27px
     bottom: 20%
     left: 89%
     @media screen and (max-width: 420px)
-      top: 20px
-      left: 23px
+      width: 30px;
+      bottom: 21px;
+      left: 85%;
   &_2
     .tabs-a__tab__selected
       .tabs-a__tab__text
@@ -253,9 +262,8 @@
     width: 63px
     top: 5%
     left: 87%
-    @media screen and (max-width: 420px)
-      top: 20px
-      left: 23px
+    
+  
 ///////////// CUSTOM LINEA DE TIEMPO D
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col-auto.linea-tiempo-d__item__col-number
@@ -280,5 +288,15 @@
 //CLASES SOBREESCRITAS//
 .img-infografica.color-acento-contenido .img-infografica__item__numero
   color: white
-
+.pasos-b__header__item--before .pasos-b__header__item__line-container
+  &::before
+    background-color: #0387D0
+  &::after
+    background-color: #0387D0 
+.pasos-b__header__item--active .pasos-b__header__item__line-container
+  &::before
+    background-color: #0387D0 
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+    border-color: #0387D0;
+    background-color: #0387D0;
 

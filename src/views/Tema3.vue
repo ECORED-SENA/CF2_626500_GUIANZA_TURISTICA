@@ -10,15 +10,15 @@
     p.mb-5 La ubicación y reconocer el espacio que se habita comprende diferentes elementos que llevan a su cultura, siendo de esta manera la geografía un elemento importante que permite descubrir y dibujar la tierra, ciencia que estudia la interacción dinámica entre los elementos, factores y procesos físicos y sociales que modifican sin cesar el planeta. La geografía analiza el dónde, cómo y por qué esos componentes naturales y humanos se encuentran sobre la superficie de la Tierra, cuáles son las causas que los originan, qué relaciones guardan entre sí, cuáles son los efectos que se derivan sobre ellos y qué cambios han presentado a través del tiempo. La geografía es una ciencia que se enfoca en el análisis del espacio geográfico, entendido este como el espacio humanizado diverso, resultado de la interacción entre las sociedades con la naturaleza, lo que origina una gran variedad de lugares que conforman el mundo. (Diccionario Esencial Larousse Geografía, 2011) 
 
     .row.mb-5
-      .col-12.col-md-6
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-left")
         .bgr_3.p-3.h-100
           p.mb-0 Desde los albores de la humanidad, la necesidad de ubicar los recursos, los peligros, los semejantes y demás elementos ha permitido la concepción del espacio como dimensión. No hay una línea constante y homogénea que marque el desarrollo histórico de la geografía, o que marque los límites conceptuales de qué es geografía y qué no. Por tanto, permanece el debate, inclusive entre expertos, debido a que, como geografía, es posible incluir una serie de conocimientos, técnicas, prácticas y métodos para referirse al espacio y a la localización (Ortega, 2004). Considere lo que se comparte a continuación.
 
-    .tarjeta.bgr_18.p-4.mb-5
-      SlyderA.p-5
+    .tarjeta.bgr_18.p-md-4.mb-5(data-aos="flip-up")
+      SlyderA.p-md-5
         .row.p-5
           .col-md-6.mb-4.mb-md-0
             p Tradicionalmente, la geografía se considera una serie de datos que, de memoria, dan cuenta de nombres de lugares, accidentes geográficos, ríos, capitales, ubicación.
@@ -63,31 +63,31 @@
               img(src='@/assets/curso/tema3/t3-8.png', alt='Texto que describa la imagen') 
         
     .row.mb-5
-      .col-12.col-md-6
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
         .bgr_19.p-4
           p.mb-0 En Colombia, la reflexión sobre el espacio se ve reflejada en las intervenciones de grupos humanos en el medio natural, donde había un intento de mantener el equilibrio con el medio natural. Con la llegada de los conquistadores europeos, las geografías descriptivas se ampliaron mediante la exploración y el conocimiento del “Nuevo Mundo”, principalmente con intereses económicos y de control representados en diversos mapas. En el siglo XIX, personajes como Francisco José de Caldas elaboran trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; sumado a ello, el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan al conocimiento geográfico en un lugar de importancia para la construcción de un nuevo país, evidencia de ello son los resultados de la Comisión Corográfica (1850-1859), que busca identificar y conocer los territorios que contribuyan a la construcción de un mapa nacional. Posteriormente, otros personajes, como Francisco Javier Vergara y Velasco, los textos del religioso Justo Ramón, Julio Garavito Armero, Eduardo Acevedo Latorre, José Agustín Blanco, Ernesto Guhl y otro número de científicos y geógrafos, han contribuido al conocimiento espacial de Colombia y su contexto en el ámbito mundial  (Díaz, 2010). Observe la siguiente información:
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-9.png', alt='Texto que describa la imagen') 
     
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.text-bold-mb-5 Para saber más sobre el espacio y conceptos asociados, como ubicarse, orientarse o localizar, observe lo que se presenta a continuación: 
 
     .row.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
         .bgr_20.p-4.h-100
           figure.d-flex.justify-content-center.mb-3.mb-md-5
             img.img130(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
           p.mb-0 <b>Ubicarse:</b> es memorizar las imágenes concretas, marcas visuales (a veces olores y ruidos), sobre todo aquellas que permiten saber si se está en tal o cual lugar.
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-left")
         .bgr_20.p-4.h-100
           figure.d-flex.justify-content-center.mb-3.mb-md-5
             img.img130(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
           p <b>Orientarse:</b> consiste en situar los lugares en un espacio de referencia más amplio y abstracto. Todos los lugares habitados y un gran número de sitios característicos de la superficie de la tierra tienen nombre desde hace mucho tiempo. (Claval, 1995, p. 162)
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="flip-right")
         .bgr_20.p-4.h-100
           figure.d-flex.justify-content-center.mb-3.mb-md-5
             img.img130(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
@@ -96,19 +96,19 @@
     p.mb-5 Al comprender la diferencia entre ubicarse, orientarse o localizar, se facilita el acercamiento a la cartografía, definida como sustantivo femenino que referencia una ciencia que trata la comunicación gráfica en documentos conocidos como cartas, o cartas de navegación, los cuales están estrechamente emparentados con los mapas. La construcción mental de una imagen para la tierra se comprende también como abstracción, racionalización del espacio. Esta fase corresponde también a la estandarización de códigos, lenguajes y símbolos, los cuales se configuran como convenciones que permiten la comunicación acerca de un área específica y sus componentes o características, de acuerdo con el objeto que motive la construcción del mapa.
 
     .row.mb-5
-      .col-12.col-md-7
+      .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-right")
         .bgr_21.p-5.h-100.d-flex.align-items-center.position-relative
           h4.mb-0 “Aun cuando los mapas son esenciales para representar la realidad y sus relaciones espaciotemporales, no debemos olvidar que son solamente una aproximación de la realidad y como tales no están exentos de distorsiones o errores geométricos” (Aranoff, 1989; Burrough,1986).
           img.pst(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
           img.pst_1(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-left")
         p La escala determina la relación entre un elemento o espacio físico y su representación en un documento o mapa. Por tanto, la escala es el valor por medio del cual se comprenden las dimensiones reales de una representación cartográfica.  Conocer la escala de un mapa permite medir distancias, determinar áreas y realizar comparaciones entre diferentes objetos. 
         p <b>Factor Escala:</b> escala verdadera / escala principal o nominal.  La escala puede expresarse de la siguiente manera (Robinson, Sale y Morrison, 1978):
         p <b>Escala numérica:</b> Es una fracción o razón, como se muestra a continuación, donde el numerador se denomina módulo y el denominador, fracción representativa:
         p 1:10.000, 1/10.000
         p En ambos casos, la escala se lee en diez mil y su interpretación es la siguiente: una unidad de distancia en el mapa (Ejemplo: 1 mm o 1 cm equivale a 10.000 unidades en el terreno (Ej. 10.000 mm o 10.000 cm).
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10
         .tarjeta.bgr_16.p-3.mb-5
           .row.justify-content-around.align-items-center
@@ -137,7 +137,7 @@
       h5 Tabla 2
       span Lista de definiciones de espacios geográficos
     
-    .tabla-b.color-acento-contenido.mb-5
+    .tabla-b.color-acento-contenido.mb-5(data-aos="flip-down")
       table
         caption  Nota. Tomada de Ramírez y López (2015)
         tr
@@ -171,13 +171,13 @@
       h5 Figura 2
       span Algunas de las ramas de la geografía. Visión integral de la geografía.
     
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       img.mb-3(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
       figcaption Nota. Duval sobre la base de Fenneman (1919) y Campo (2015), (2017). 
     
     p.mb-5 Desde su concepto principal, la geografía interviene diferentes campos, los cuales se definen en la siguiente información: 
 
-    TabsC.bgr_22
+    TabsC.bgr_22(data-aos="flip-left")
       .py-3.py-md-4.bgr_9(titulo="Geografía física")
         .row.p-5
           .col-md-6.mb-4.mb-md-0
@@ -254,7 +254,7 @@
       p Las regiones naturales en Colombia están determinadas por características naturales y geográficas: el relieve, las especies de fauna y flora que en ellas habitan, el clima, la hidrografía, las características del suelo, entre otras. 
       p.mb-5.text-bold A continuación, se presentan las regiones naturales de Colombia. 
 
-      ImagenInfografica.color-acento-contenido.mb-5
+      ImagenInfografica.color-acento-contenido.mb-5(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema3/t3-25.svg', alt='Texto que describa la imagen')

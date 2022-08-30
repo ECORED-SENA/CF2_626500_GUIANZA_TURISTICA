@@ -15,7 +15,7 @@
 
     p.mt-5 Siendo un tema de estudio tan relevante, debe considerarse de vital importancia para comprender las dinámicas y características sociales de las naciones del mundo.
 
-    figure
+    figure(data-aos="zoom-in")
       img(src='@/assets/curso/tema2/t2-1.png', alt='Texto que describa la imagen')
     
     separador
@@ -26,13 +26,13 @@
     p.mb-5 Definido por la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura UNESCO, como “el legado cultural  que se recibe del pasado, que vivimos en el presente y que transmitiremos a las generaciones futuras”, el concepto de patrimonio es muy amplio, pues va desde el patrimonio declarado, hasta lo que se considera valioso para cada uno de nosotros (UNESCO, 2021).  De esta manera, se debe tener claridad en los siguientes conceptos que se presentan a continuación:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-5
+      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
         .bgr_2.p-5.h-100
           h3.mb-5 Patrimonio cultural
           figure.mb-4
             img(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
           p.mb-0  Según la Ley General de Cultura, el patrimonio cultural de la nación está constituido por todos los bienes materiales, manifestaciones inmateriales, productos y representaciones de la cultura que son expresión de la nacionalidad colombiana (Congreso de Colombia, 2008). Este, a su vez, puede ser patrimonio cultural material o tangible (mueble o inmueble), e inmaterial o intangible.
-      .col-12.col-md-5 
+      .col-12.col-md-5(data-aos="fade-left")
         .bgr_3.p-5.h-100
           h3.mb-5 Patrimonio natural
           figure.mb-4
@@ -41,7 +41,7 @@
 
     .bg_grad-01.mb-5
       .row
-        .col-12.col-md-11
+        .col-12.col-md-11(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
     
@@ -52,10 +52,10 @@
         h2 2.2 Recurso y atractivo turístico 
       
       .row.mb-5
-        .col-12.col-md-2
-          figure
-            img(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
-        .col-12.col-md-10.d-flex.align-items-center
+        .col-12.col-md-2.mb-3.mb-md-0(data-aos="fade-right")
+          figure.d-flex.justify-content-center
+            img.img190(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
+        .col-12.col-md-10.d-flex.align-items-center(data-aos="fade-left")
           div
             p El turismo, en los últimos años, se ha convertido en un pasatiempo que permite conocer la historia y los elementos principales que han intervenido en ella; de esta manera, la Organización Mundial del Turismo 
             p.mb-0 <b>UNWTO (s. f.)</b> define el recurso turístico como “cualquier elemento natural, actividad humana o producto antropológico que pueda motivar el desplazamiento con el móvil esencial de la curiosidad o la posibilidad de realizar una actividad física o intelectual”.
@@ -86,26 +86,26 @@
               td.p-5 Atractivos contemporáneos comerciales:  parques de diversiones, centros de salud, exposiciones, espectáculos, comercios y mercados.   
       
     .row.mb-5
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-right")
         p Hacia el año 2000, y después de un estudio y análisis vinculado al turismo, se decide por política del sector que el concepto de recurso humano migra al de patrimonio, conservando la estructura teórica y descripción.  
           p.mb-5 Para algunos autores, recurso y atractivo es lo mismo, otros, por el contrario, determinan que el atractivo, a diferencia del recurso, ya cuenta con las condiciones para ser integrado de inmediato a un producto y a un destino turístico debido a que sus elementos materiales o inmateriales son susceptibles de ser transformados en producto sin que el turista incida en esta decisión, y se transforma rápidamente en destino turístico.   Lo anterior marca esta diferencia con el recurso, pues la simple existencia de recursos, ya sean naturales o culturales, no implica que sea posible practicar actividades y atraer turistas de forma inmediata, no siempre son aprovechables o de suficiente interés.  
         p.text-bold Un recurso natural litoral de Colombia, que además es atractivo, es, por ejemplo 
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-6.png', alt='Texto que describa la imagen')
 
     .row.mb-5 
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="flip-up")
         figure.mb-1
           img(src='@/assets/curso/tema2/t2-7.png', alt='Texto que describa la imagen')
         .bgr_7.p-3
           h4.mb-0.text-center Tolú y Coveñas
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="flip-down")
         figure.mb-1
           img(src='@/assets/curso/tema2/t2-8.png', alt='Texto que describa la imagen')
         .bgr_7.p-3
           h4.mb-0.text-center Playa Blanca en Cartagena o Spratt Bight
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="flip-up")
         figure.mb-1
           img(src='@/assets/curso/tema2/t2-9.png', alt='Texto que describa la imagen')
         .bgr_7.p-3
@@ -121,12 +121,12 @@
     p.mb-5 Cuando se reconoce cada uno de los momentos de la historia, se logra profundizar en cómo acontece la cultura alrededor de sus manifestaciones y posibilidades para la sociedad; de esta manera, se precisa la importancia del arte, el cual se define como:
 
     .row.mb-5
-      .col-12.col-md-7
-        .bgr_8.p-5.h-100.d-flex.align-items-center.position-relative
+      .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-right")
+        .bgr_8.p-4.p-md-5.py-5.h-100.d-flex.align-items-center.position-relative
           h4.mb-0 Palabra que viene del latín “ars” (habilidad) y del griego <em>“techné”</em> (técnica), por lo que hablamos de “[la] actividad humana que tiene como fin la creación de obras culturales”, o bien, “[el] conjunto de habilidades, técnicas o principios necesarios para realizar una determinada actividad”. (Real Academia Española, s. f.)
           img.pst(src='@/assets/curso/tema2/t2-11.svg', alt='Texto que describa la imagen')
           img.pst_1(src='@/assets/curso/tema2/t2-12.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
     
@@ -135,7 +135,7 @@
     | ¿Cómo  abordarlo? Al igual que la historia de la humanidad, es posible estudiar el arte de acuerdo con sus periodos históricos, a saber:
 
     .row.mt-5.justify-content-center
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="zoom-out")
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Edad Prehistórica").p-3
             .col-md-6
@@ -174,11 +174,11 @@
       h2 2.4 Arquitectura. Características 
 
     .row.mb-5
-      .col-12.col-md-6
+      .col-12.col-md-6(data-aos="fade-right")
         .bgr_9.p-5.mb-5
           h4.mb-0 Definida como el arte de proyectar y construir edificios (Real Academia Española, s. f.), la arquitectura es una de las siete Bellas Artes, junto al cine, la danza, la escultura, la literatura, la música y la pintura.
         p Una primera aproximación a la arquitectura puede darse desde sus periodos históricos, y a partir de estos, el análisis de sus características. En la Prehistoria, por ejemplo, los primeros humanos utilizaron abrigos rocosos para su cobijo, y con la aparición de las primeras civilizaciones en la Edad Antigua, surgen las primeras ciudades, como Mesopotamia en Medio Oriente. Detalle en la siguiente información el aporte que cada una de estas brindó a nivel social.:
-      .col-12.col-md-6 
+      .col-12.col-md-6(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-18.png', alt='Texto que describa la imagen')
     
@@ -225,9 +225,9 @@
               img(src='@/assets/curso/tema2/t2-23.png', alt='Texto que describa la imagen')
     
     .row.mb-5.justify-content-between
-      .col-12.col-md-6
+      .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
         p.mb-0 La primera mitad del siglo XX se caracteriza por la influencia global de la escuela alemana Bauhaus, el Estilo Internacional, el Movimiento Moderno, el constructivismo ruso, la arquitectura orgánica y brutalista. A nivel nacional, en el mismo periodo, aparecen influencias arquitectónicas como el Art Nouveau, el Art Decó, la escuela Bauhaus, así como los estilos “Tudor” y “Frame” ingleses, en lo que se conoce como época de transición o primera modernidad (Universidad Nacional de Colombia, 1989).  Desde la segunda mitad del siglo hasta el presente, predomina en el mundo la arquitectura postmoderna, metafórica, deconstructivista, High Tech, biónica y cuántica. En Colombia, luego del episodio conocido como “El Bogotazo” (9 de abril de 1948), se impone la arquitectura moderna, y en décadas recientes, la arquitectura contemporánea.
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-24.png', alt='Texto que describa la imagen')
     
@@ -237,7 +237,7 @@
     
     h2.text-center.mb-5 Épocas de la arquitectura en Colombia
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10
         figure
           img(src='@/assets/curso/tema2/t2-25.svg', alt='Texto que describa la imagen')
