@@ -45,6 +45,8 @@
   max-width: 100px !important
 .img120
   max-width: 120px !important
+.img130
+  max-width: 130px !important
 .img140
   max-width: 140px !important
 .img160
@@ -139,6 +141,26 @@
       background-color: #0387D0
     *
       color: white
+  &_18
+    background-image: url("../assets/curso/tema3/fondo1.png")
+    background-repeat: no-repeat
+    background-size: cover
+  &_19
+    background-color: #DEEADB
+  &_20
+    background-color: #FFEBB5
+    border-radius: 10px
+    &:hover
+      background-color: #FFB690
+  &_21
+    background-color: #DEF1FF
+  &_22
+    .tabs-c__tab--active
+      border-bottom-color: #EA3065 !important
+      &::before
+        border-top-color: #EA3065 !important  
+  &_23
+    background-color: #93CAE8
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -184,6 +206,20 @@
     background-image: url("../assets/curso/tema4/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+.bg_grad-04
+  position: relative
+  .row, p, .tabla-a, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 10%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 93%
+    background: rgb(3,135,208)
+    background: linear-gradient(180deg, rgba(3,135,208,0.10717790534182425) 0%, rgba(2,68,104,0.03154765324098385) 100%)  
 //POSICION EN PANTALLA//
 .pst
   position: absolute
@@ -212,6 +248,14 @@
       background-color: #DEEADB
   &_3
     padding: 80px 0 80px 0
+  &_4
+    position: absolute
+    width: 63px
+    top: 5%
+    left: 87%
+    @media screen and (max-width: 420px)
+      top: 20px
+      left: 23px
 ///////////// CUSTOM LINEA DE TIEMPO D
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col-auto.linea-tiempo-d__item__col-number
@@ -232,6 +276,9 @@
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
       background-color: #F6F6F6
-    
+
+//CLASES SOBREESCRITAS//
+.img-infografica.color-acento-contenido .img-infografica__item__numero
+  color: white
 
 
