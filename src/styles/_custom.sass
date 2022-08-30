@@ -79,6 +79,8 @@
   color: white
   span
     color: white !important
+  &_1
+    color: #EB6F2D
 //BACKGROUND CONTENIDOS//
 .bgr
   background-image: url("../assets/curso/tema1/fondo1.svg")
@@ -88,4 +90,148 @@
     background-image: url("../assets/curso/tema1/fondo2.png")
     background-repeat: no-repeat
     background-size: cover
+  &_2
+    background-color: #DEE9F0
+  &_3
+    background-color: #FFE6A1
+  &_4
+    background-color: #EB6F2D !important
+    border-color: #EB6F2D !important
+  &_5
+    background-color: #F5F5F5
+  &_6
+    background-color: #C9D9C6
+  &_7
+    background-color: #FFD667
+  &_8
+    background-color: #EDEDED
+  &_9
+    background-color: #E8E8E8
+  &_10
+    background-color: #FFE6A1
+    &::before
+      background-color: #FFBB00
+  &_11
+    .tarjeta-flip__img
+      background-color: none
+    .tarjeta-flip__contenido
+      background-color: #FDF6F2
+  &_12
+    .tarjeta-flip__img
+      background-color: none
+    .tarjeta-flip__contenido
+      background-color: #F2F7F1
+  &_13
+    background-color: #FFD8C4
+  &_14
+    background-color: #DEEADB
+    border-left: 3px solid white !important
+    border-bottom: 3px solid white !important
+  &_15
+    background-color: #FFD667
+    border-right: 3px solid white !important
+    border-bottom: 3px solid white !important
+  &_16
+    background-color: #FFDDCB
+  &_17
+    background-color: #01517D
+    &:hover
+      background-color: #0387D0
+    *
+      color: white
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row, p, h2, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 14%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-02
+  position: relative
+  .row, p, .tabla-a, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -22px
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 2rem)
+    background: rgb(255,246,222)
+    background: linear-gradient(180deg, rgba(255,246,222,1) 0%, rgba(255,255,255,1) 100%)
+.bg_grad-03
+  position: relative
+  .row, p, h2, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -5%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 4rem)
+    background-image: url("../assets/curso/tema4/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+//POSICION EN PANTALLA//
+.pst
+  position: absolute
+  width: 63px
+  top: 14%
+  left: 7%
+  @media screen and (max-width: 420px)
+    top: 20px
+    left: 23px
+  &_1
+    position: absolute
+    width: 27px
+    bottom: 20%
+    left: 89%
+    @media screen and (max-width: 420px)
+      top: 20px
+      left: 23px
+  &_2
+    .tabs-a__tab__selected
+      .tabs-a__tab__text
+        color: white
+    .tabs-a__tab
+      background-color: #E8E8E8
+    .tarjeta.color-acento-botones--borde
+      border: none
+      background-color: #DEEADB
+  &_3
+    padding: 80px 0 80px 0
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #BEC9BA !important
+      color: black
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #DEEADB
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+    
+
 
