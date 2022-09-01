@@ -9,7 +9,7 @@
     
     span Cuando se hace referencia a la historia de la humanidad, la cultura define sus avances y relaciones, que se tejen a nivel social, de allí la necesidad de precisar el concepto de cultura para ser abordado en el componente.  Según la Real Academia Española, 
     span.colr_1.text-bold “Cultura” 
-    | (del latín cultūra) se define como “[el] conjunto de modos de vida y costumbres, conocimiento y grado de desarrollo artístico, científico, industrial, en una época, grupo social, [y otros]”, y la 
+    | (del latín <em>cultūra</em>) se define como “[el] conjunto de modos de vida y costumbres, conocimiento y grado de desarrollo artístico, científico, industrial, en una época, grupo social, [y otros]”, y la 
     span.colr_1.text-bold “Cultura popular” 
     | como “[el] conjunto de las manifestaciones en que se expresa la vida tradicional de un pueblo”. (Real Academia Española, s. f.).
 
@@ -57,11 +57,14 @@
             img.img190(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
         .col-12.col-md-10.d-flex.align-items-center(data-aos="fade-left")
           div
-            p El turismo, en los últimos años, se ha convertido en un pasatiempo que permite conocer la historia y los elementos principales que han intervenido en ella; de esta manera, la Organización Mundial del Turismo 
-            p.mb-0 <b>UNWTO (s. f.)</b> define el recurso turístico como “cualquier elemento natural, actividad humana o producto antropológico que pueda motivar el desplazamiento con el móvil esencial de la curiosidad o la posibilidad de realizar una actividad física o intelectual”.
+            p.mb-0 El turismo, en los últimos años, se ha convertido en un pasatiempo que permite conocer la historia y los elementos principales que han intervenido en ella; de esta manera, la Organización Mundial del Turismo <b>UNWTO (s. f.)</b> define el recurso turístico como “cualquier elemento natural, actividad humana o producto antropológico que pueda motivar el desplazamiento con el móvil esencial de la curiosidad o la posibilidad de realizar una actividad física o intelectual”.
       
       p En otras palabras, es  la materia prima necesaria para desarrollar, entre otros, un producto o un destino con atractivo turístico. Se puede afirmar que siempre será factor de motivación para que un turista se desplace esencialmente por ocio.  Desde el punto de vista técnico, es importante analizar el potencial de aprovechamiento y capacidad de estos, con el fin de hacer un buen uso de ellos y que no se sobreexploten, porque sufrirían daños permanentes e irreparables.
       p.mb-5 Los recursos turísticos se clasifican en dos grandes grupos:  recursos naturales y recursos culturales; para identificarlos, observe la siguiente tabla.
+
+      .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
+        h5 Tabla 1
+        span Recursos naturales y culturales
 
       .tabla-a.color-acento-botones.mb-5 
         table
@@ -177,7 +180,7 @@
       .col-12.col-md-6(data-aos="fade-right")
         .bgr_9.p-5.mb-5
           h4.mb-0 Definida como el arte de proyectar y construir edificios (Real Academia Española, s. f.), la arquitectura es una de las siete Bellas Artes, junto al cine, la danza, la escultura, la literatura, la música y la pintura.
-        p Una primera aproximación a la arquitectura puede darse desde sus periodos históricos, y a partir de estos, el análisis de sus características. En la Prehistoria, por ejemplo, los primeros humanos utilizaron abrigos rocosos para su cobijo, y con la aparición de las primeras civilizaciones en la Edad Antigua, surgen las primeras ciudades, como Mesopotamia en Medio Oriente. Detalle en la siguiente información el aporte que cada una de estas brindó a nivel social.:
+        p Una primera aproximación a la arquitectura puede darse desde sus periodos históricos, y a partir de estos, el análisis de sus características. En la Prehistoria, por ejemplo, los primeros humanos utilizaron abrigos rocosos para su cobijo, y con la aparición de las primeras civilizaciones en la Edad Antigua, surgen las primeras ciudades, como Mesopotamia en Medio Oriente. Detalle en la siguiente información el aporte que cada una de estas brindó a nivel social:
       .col-12.col-md-6(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-18.png', alt='Texto que describa la imagen')

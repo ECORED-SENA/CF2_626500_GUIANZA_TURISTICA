@@ -103,7 +103,7 @@
           img.pst_1(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
       .col-12.col-md-5(data-aos="fade-left")
         p La escala determina la relación entre un elemento o espacio físico y su representación en un documento o mapa. Por tanto, la escala es el valor por medio del cual se comprenden las dimensiones reales de una representación cartográfica.  Conocer la escala de un mapa permite medir distancias, determinar áreas y realizar comparaciones entre diferentes objetos. 
-        p <b>Factor Escala:</b> escala verdadera / escala principal o nominal.  La escala puede expresarse de la siguiente manera (Robinson, Sale y Morrison, 1978):
+        p <b>Factor Escala:</b> escala verdadera / escala principal o nominal.  La escala puede expresarse de la siguiente manera (Robinson, Sale y Morrison, 1978).
         p <b>Escala numérica:</b> Es una fracción o razón, como se muestra a continuación, donde el numerador se denomina módulo y el denominador, fracción representativa:
         p 1:10.000, 1/10.000
         p En ambos casos, la escala se lee en diez mil y su interpretación es la siguiente: una unidad de distancia en el mapa (Ejemplo: 1 mm o 1 cm equivale a 10.000 unidades en el terreno (Ej. 10.000 mm o 10.000 cm).
@@ -142,7 +142,10 @@
         caption  Nota. Tomada de Ramírez y López (2015)
         tr
           th.bgr_15.text-center PAISAJE
-          td.bgr_14 El concepto de paisaje ha sido retomado por diversas disciplinas, tanto en el medio académico como en el artístico. Ambas visiones se adentran en las formas de la superficie terrestre, en su fisonomía y sus implicaciones a través del uso o la representación del paisaje. Johnston define el paisaje como la “porción de tierra o de territorio que el ojo puede abarcar con un simple vistazo, incluyendo todos los aspectos vistos, especialmente, en su aspecto pictórico”.
+          td.bgr_14 El concepto de paisaje ha sido retomado por diversas disciplinas, tanto en el medio académico como en el artístico. Ambas visiones se adentran en las formas de la superficie terrestre, en su fisonomía y sus implicaciones a través del uso o la representación del paisaje. 
+            br
+            br
+            span Johnston define el paisaje como la “porción de tierra o de territorio que el ojo puede abarcar con un simple vistazo, incluyendo todos los aspectos vistos, especialmente, en su aspecto pictórico”.
             br
             br
             p <b>Ejemplo:</b> Paisaje que genera los Cerros Orientales de Bogotá para la ciudad.
@@ -238,7 +241,7 @@
     separador
     
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2 Campos de estudio, de la geografía física a la geografía humana
+      h2 3.2 Regiones naturales de Colombia
     
     p.mb-5 Colombia se encuentra dividida geográficamente por regiones, para definir cada una de ellas, se tiene en cuenta primero el concepto de región natural.
 
@@ -256,30 +259,32 @@
 
       ImagenInfografica.color-acento-contenido.mb-5(data-aos="zoom-in")
         template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/tema3/t3-25.svg', alt='Texto que describa la imagen')
+          .row.justify-content-center
+            .col-12.col-md-10
+              figure
+                img(src='@/assets/curso/tema3/t3-25.svg', alt='Texto que describa la imagen')
 
-        .bgr_23.p-3(x="32.2%" y="67.3%" numero="1").position-relative
+        .bgr_23.p-3(x="36.2%" y="67.3%" numero="1").position-relative
           .h5.mb-2 Región Andina 
           p Ubicada en los Andes colombianos, en el centro del país, tiene ecosistemas de páramo, lo que la hace rica en fuentes hídricas. 
           img.img30.pst_4(src='@/assets/curso/tema3/t3-26.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="66.5%" y="78%" numero="2").position-relative
+        .bgr_23.p-3(x="65.8%" y="78%" numero="2").position-relative
           .h5.mb-2 Región Amazónica 
           p Ubicada en la zona sur del país, la Amazonía colombiana es una región con un clima cálido, que presenta abundantes lluvias, en el que se desarrolla la selva tropical, así como diversidad de fauna y flora. 
           img.img30.pst_4(src='@/assets/curso/tema3/t3-27.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="40.9%" y="20.4%" numero="3").position-relative
+        .bgr_23.p-3(x="43.9%" y="20.4%" numero="3").position-relative
           .h5.mb-2 Región Caribe  
           p Ubicada al norte del país, goza de un clima principalmente tropical, aunque hay variaciones, como en la zona de la Guajira, donde el clima es desértico, en el que es muy común encontrar especies de cactus adaptadas a las altas temperaturas y la escasez de agua.  
           img.img30.pst_4(src='@/assets/curso/tema3/t3-28.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="14.9%" y="14.4%" numero="4").position-relative
+        .bgr_23.p-3(x="21.9%" y="14.4%" numero="4").position-relative
           .h5.mb-2 Región Insular 
           p Una característica de esta región, la cual está formada por islas e islotes, es el clima tropical y el seco, con unas temperaturas que van desde los 20 ºC hasta los 30 ºC o 40 ºC, además, en ella se dan temporadas de lluvia y humedad y épocas secas.   
           img.img30.pst_4(src='@/assets/curso/tema3/t3-29.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="64.5%" y="42.2%" numero="5").position-relative
+        .bgr_23.p-3(x="64%" y="42.2%" numero="5").position-relative
           .h5.mb-2 Región Orinoquía 
           p Ubicada en el oriente colombiano, en esta región se da un clima cálido y seco, en el que predomina la vegetación de sabana y pastos naturales; existen especies vegetales como el guayacán amarillo, las ceibas, el epifitas, las gramíneas o las palmeras de moriche.    
           img.img30.pst_4(src='@/assets/curso/tema3/t3-30.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="35.2%" y="47%" numero="6").position-relative
+        .bgr_23.p-3(x="39%" y="47%" numero="6").position-relative
           .h5.mb-2 Región Pacífica 
           p Esta región se ubica en la zona occidental del país, posee un clima tropical con una temperatura media mensual de 24 °C, aproximadamente, y una alta humedad. En su hábitat, abundan especies marinas, como cachalotes, ballenas jorobadas, tiburones y mojarras, camarones y cangrejos. También, entre los animales terrestres más importantes, están el oso hormiguero, el jabalí, el mico tití, el tigrillo, el perezoso, el caimán de agua dulce, el águila harpía, además de pequeños anfibios y reptiles.     
           img.img30.pst_4(src='@/assets/curso/tema3/t3-31.svg', alt='Texto que describa la imagen')

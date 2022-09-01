@@ -100,9 +100,9 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
+            numero: '3.2',
             titulo: 'Regiones naturales de Colombia ',
-            hash: 't_3_1',
+            hash: 't_3_2',
           },
         ],
       },
@@ -350,7 +350,7 @@ export default {
       },
       {
         nombre: 'Wilson Pacheco Gutiérrez',
-        cargo: 'Instructor Técnico',
+        cargo: 'Instructor técnico',
         centro:
           'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Distrito Capital',
       },
@@ -373,7 +373,7 @@ export default {
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
       },
       {
@@ -390,7 +390,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Carlos Julian Ramirez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -408,8 +408,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Maria Camila Ovalle',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
