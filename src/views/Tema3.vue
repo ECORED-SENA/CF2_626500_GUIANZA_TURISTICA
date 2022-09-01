@@ -68,7 +68,7 @@
           p.mb-0 En Colombia, la reflexión sobre el espacio se ve reflejada en las intervenciones de grupos humanos en el medio natural, donde había un intento de mantener el equilibrio con el medio natural. Con la llegada de los conquistadores europeos, las geografías descriptivas se ampliaron mediante la exploración y el conocimiento del “Nuevo Mundo”, principalmente con intereses económicos y de control representados en diversos mapas. En el siglo XIX, personajes como Francisco José de Caldas elaboran trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; sumado a ello, el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan al conocimiento geográfico en un lugar de importancia para la construcción de un nuevo país, evidencia de ello son los resultados de la Comisión Corográfica (1850-1859), que busca identificar y conocer los territorios que contribuyan a la construcción de un mapa nacional. Posteriormente, otros personajes, como Francisco Javier Vergara y Velasco, los textos del religioso Justo Ramón, Julio Garavito Armero, Eduardo Acevedo Latorre, José Agustín Blanco, Ernesto Guhl y otro número de científicos y geógrafos, han contribuido al conocimiento espacial de Colombia y su contexto en el ámbito mundial  (Díaz, 2010). Observe la siguiente información:
       .col-12.col-md-6(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema3/t3-9.png', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/tema3/t3-9.jpg', alt='Texto que describa la imagen') 
     
     figure.mb-5(data-aos="zoom-in")
       .video
