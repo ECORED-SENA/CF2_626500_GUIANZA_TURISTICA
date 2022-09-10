@@ -70,9 +70,41 @@
         figure
           img(src='@/assets/curso/tema3/t3-9.jpg', alt='Texto que describa la imagen') 
     
-    figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.mb-5.justify-content-center
+      .col-12.col-md-4.bgr_24
+        h3.text-center Geografia
+    
+    .row.mb-5
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-left")
+        figure.mb-3
+          img(src='@/assets/curso/tema3/t3-32.png', alt='Texto que describa la imagen')
+        p.p-2 <b>En Colombia</b>, la reflexión sobre el espacio se ve reflejada en las intervenciones de grupos humanos en el medio natural, donde había un intento de mantener el equilibrio con el medio natural. Con la llegada de los conquistadores europeos, las geografías descriptivas se ampliaron mediante la exploración y el conocimiento del “Nuevo Mundo”.
+        TarjetaAudio.color-acento-contenido.mb-3.pst_5(
+          texto="Texto de muestra"
+          :audio="require('@/assets/componentes/audios/01.mp3')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
+        figure.mb-3
+          img(src='@/assets/curso/tema3/t3-33.png', alt='Texto que describa la imagen')
+        p.p-2 <b>En el siglo XIX</b>, personajes como Francisco José de Caldas elaboran trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; sumado a ello, el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan el conocimiento geográfico en un lugar de importancia para la construcción de un nuevo país.
+
+        TarjetaAudio.color-acento-contenido.mb-3(
+          texto="Texto de muestra"
+          :audio="require('@/assets/componentes/audios/02.mp3')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+      .col-12.col-md-4(data-aos="flip-left")
+        figure.mb-3
+          img(src='@/assets/curso/tema3/t3-34.png', alt='Texto que describa la imagen')
+        p.p-2 <b>Posteriormente, otros personajes, como Francisco Javier Vergara y Velasco</b>, los textos del religioso Justo Ramón, Julio Garavito Armero, Eduardo Acevedo Latorre, José Agustín Blanco, Ernesto Guhl y otro número de científicos y geógrafos, han contribuido al conocimiento espacial de Colombia y su contexto en el ámbito mundial  (Díaz, 2010).  
+        TarjetaAudio.color-acento-contenido.mb-3.pst_5(
+          texto="Texto de muestra"
+          :audio="require('@/assets/componentes/audios/03.mp3')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+
+    
 
     p.text-bold-mb-5 Para saber más sobre el espacio y conceptos asociados, como ubicarse, orientarse o localizar, observe lo que se presenta a continuación: 
 
@@ -301,7 +333,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {
