@@ -80,7 +80,6 @@
           img(src='@/assets/curso/tema3/t3-32.png', alt='Texto que describa la imagen')
         p.p-2 <b>En Colombia</b>, la reflexión sobre el espacio se ve reflejada en las intervenciones de grupos humanos en el medio natural, donde había un intento de mantener el equilibrio con el medio natural. Con la llegada de los conquistadores europeos, las geografías descriptivas se ampliaron mediante la exploración y el conocimiento del “Nuevo Mundo”.
         TarjetaAudio.color-acento-contenido.mb-3.pst_5(
-          texto="Texto de muestra"
           :audio="require('@/assets/componentes/audios/01.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
@@ -90,7 +89,6 @@
         p.p-2 <b>En el siglo XIX</b>, personajes como Francisco José de Caldas elaboran trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; sumado a ello, el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan el conocimiento geográfico en un lugar de importancia para la construcción de un nuevo país.
 
         TarjetaAudio.color-acento-contenido.mb-3(
-          texto="Texto de muestra"
           :audio="require('@/assets/componentes/audios/02.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
@@ -99,7 +97,6 @@
           img(src='@/assets/curso/tema3/t3-34.png', alt='Texto que describa la imagen')
         p.p-2 <b>Posteriormente, otros personajes, como Francisco Javier Vergara y Velasco</b>, los textos del religioso Justo Ramón, Julio Garavito Armero, Eduardo Acevedo Latorre, José Agustín Blanco, Ernesto Guhl y otro número de científicos y geógrafos, han contribuido al conocimiento espacial de Colombia y su contexto en el ámbito mundial  (Díaz, 2010).  
         TarjetaAudio.color-acento-contenido.mb-3.pst_5(
-          texto="Texto de muestra"
           :audio="require('@/assets/componentes/audios/03.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
