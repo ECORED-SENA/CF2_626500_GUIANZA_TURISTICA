@@ -140,20 +140,20 @@
     .row.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10
         .tarjeta.bgr_16.p-3.mb-5
-          .row.justify-content-around.align-items-center
+          .row.d-flex.justify-content-evenly.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema3/t3-15.svg")
             .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Profundiza
-                  p IGAC. (s. f.). Formatos y Escalas de Mapas.   
+              .row
+                .col.mb-3.mb-sm-0.d-flex.align-items-center
+                  div
+                    h3.mb-1 Profundiza
+                    p.mb-0 IGAC. (s. f.). Formatos y Escalas de Mapas.   
                 .col-sm-auto
-                  a.anexo.bgr_17.mb-4.mb-lg-0(href="https://www.igac.gov.co/es/contenido/areas-estrategicas/formatos-y-escalas-de-mapas" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p Ingresa aquí
+                  a.boton.me-3.indicador__container(href="https://www.igac.gov.co/es/contenido/areas-estrategicas/formatos-y-escalas-de-mapas" target="_blank")
+                    span Ver más
+                    i.fas.fa-link
+                    
     
     separador
 

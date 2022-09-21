@@ -107,7 +107,8 @@
     background-color: #C9D9C6
   &_7
     background-color: #FFD667
-    height: 70px
+    @media (min-width: $bp-min-md) and (max-width: $bp-max-md)
+      max-height: 100%
   &_8
     background-color: #EDEDED
   &_9
@@ -136,8 +137,9 @@
     background-color: #FFD667
     border-right: 3px solid white !important
     border-bottom: 3px solid white !important
+    font-size: 20px
   &_16
-    background-color: #FFDDCB
+    background-color: #FFB690
   &_17
     background-color: #01517D
     &:hover
@@ -160,6 +162,7 @@
   &_22
     .tabs-c__tab--active
       border-bottom-color: #EA3065 !important
+      font-weight: 900
       &::before
         border-top-color: #EA3065 !important  
   &_23
@@ -208,7 +211,7 @@
     left: 0
     width: calc( 100% + 6rem)
     height: calc( 100% + 4rem)
-    background-image: url("../assets/curso/tema4/fondo1.svg")
+    background-image: url("../assets/curso/tema4/fondo1.svg") !important
     background-repeat: no-repeat
     background-size: cover
 .bg_grad-04
@@ -224,7 +227,33 @@
     width: calc( 100% + 6rem)
     height: 93%
     background: rgb(3,135,208)
-    background: linear-gradient(180deg, rgba(3,135,208,0.10717790534182425) 0%, rgba(2,68,104,0.03154765324098385) 100%)  
+    background: linear-gradient(180deg, rgba(3,135,208,0.10717790534182425) 0%, rgba(2,68,104,0.03154765324098385) 100%) 
+.bg_grad-05
+  position: relative
+  .row, p, .tabla-a, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -16%
+    left: 0
+    width: 29%
+    height: 68%
+    background-color: #D9F2FF 
+.bg_grad-06
+  position: relative
+  .row, p, .tabla-a, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -16%
+    left: 0
+    width: 61%
+    height: calc(100% + 1.5rem)
+    background-color: #E9F5E5 
 //POSICION EN PANTALLA//
 .pst
   position: absolute
@@ -235,6 +264,10 @@
     width: 51px
     top: 4%
     left: 9%
+  @media (max-width: $bp-min-md)
+    width: 40px
+    top: 3%
+    left: 9%
   @media screen and (max-width: 420px)
     width: 30px;
     top: 14px;
@@ -244,6 +277,10 @@
     width: 27px
     bottom: 20%
     left: 89%
+    @media (max-width: $bp-min-md)
+      width: 25px
+      bottom: 8%
+      left: 89%
     @media screen and (max-width: 420px)
       width: 30px;
       bottom: 21px;
@@ -306,4 +343,12 @@
 .pasos-b__header__item--before .pasos-b__header__item__dot 
     border-color: #0387D0;
     background-color: #0387D0;
+
+.slyder-a__bullets__item--active 
+  background-color: #0387D0 !important
+  border-color: #0387D0 !important
+.slyder-a__bullets__item
+  background-color: #D9E0F9
+.tabs-c__header
+  margin-bottom: 0
 

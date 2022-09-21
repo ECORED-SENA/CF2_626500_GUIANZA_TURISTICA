@@ -34,19 +34,19 @@
       table
         caption  Nota. Tomada de Decreto 622 de 1997.
         tr
-          th.bgr_15.text-center Parque Nacional Natural -PNN-
+          th.bgr_15.text-center.px-3.py-5 Parque Nacional Natural -PNN-
           td.bgr_14 Área de extensión que es autorregulada en acciones ecológicas, cuyos ecosistemas en general no han sido alterados sustancialmente por la explotación u ocupación humana. Cuenta con especies vegetales y animales, complejos geomorfológicos y manifestaciones históricas o culturales que tienen valor científico, educativo, estético y recreativo. Para su perpetuación, se someten a un régimen adecuado de manejo. 
         tr
-          th.bgr_15.text-center Santuario de Fauna y Flora -SFF-
+          th.bgr_15.text-center.px-3.py-5 Santuario de Fauna y Flora -SFF-
           td.bgr_14 Área dedicada a preservar especies o comunidades vegetales y/o animales silvestres para conservar recursos genéticos de la flora y fauna nacional.  
         tr
-          th.bgr_15.text-center Área Natural Única -ANU-
+          th.bgr_15.text-center.px-3.py-5 Área Natural Única -ANU-
           td.bgr_14 Área que, por poseer condiciones especiales de flora o geológicas, dada las huellas expuestas y visibles en las rocas y el suelo, como evidencia del paso del tiempo y otros factores, es un escenario natural raro.
         tr
-          th.bgr_15.text-center Reserva Nacional Natural -RNN-
+          th.bgr_15.text-center.px-3.py-5 Reserva Nacional Natural -RNN-
           td.bgr_14 Área en la cual existen condiciones primitivas de flora, fauna y geología, y está destinada a la conservación, investigación y estudio de sus riquezas naturales. 
         tr
-          th.bgr_15.text-center Vía Parque
+          th.bgr_15.text-center.px-3.py-5 Vía Parque
           td.bgr_14 La categoría de Vía Parque se define como una faja de terreno con carretera, que posee bellezas panorámicas singulares, valores naturales y culturales, en la que son permisibles actividades de conservación, educación y recreación.
     
     p.mb-5 También se encuentran las Reservas Naturales de la Sociedad Civil:  Conforme con lo establecido en el  Decreto 1996 de 1999, “Por el cual se reglamentan los artículos 109 y 110 de la Ley 99 de 1993  sobre Reservas Naturales de la Sociedad Civil”, compilado en el Decreto 1076 de 2015, una Reserva Natural de la Sociedad Civil se define como “Parte o todo del área de un inmueble que conserve una muestra de un ecosistema natural y sea manejado bajo los principios de sustentabilidad en el uso de los recursos naturales y que por la voluntad de su propietario se destina para su uso sostenible, preservación o restauración con vocación de largo plazo. Corresponde a la iniciativa del propietario del predio, de manera libre, voluntaria y autónoma, destinar la totalidad o parte de su inmueble como reserva natural de la sociedad civil. La regulación de esta categoría corresponde en su integridad a lo dispuesto por él. (Parques Nacionales Naturales de Colombia, s. f.) 
@@ -59,15 +59,15 @@
               img(src="@/assets/curso/tema5/t5-3.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Profundiza
-                  p Ingresa al Mapa - SINAP.  Parques Nacionales Naturales de Colombia, s. f.  
+                .col.mb-3.mb-sm-0.d-flex.align-items-center
+                  div
+                    h3.mb-1 Profundiza
+                    p.mb-0 Ingresa al Mapa - SINAP.  Parques Nacionales Naturales de Colombia, s. f.  
                 .col-sm-auto
-                  a.anexo.bgr_17.mb-4.mb-lg-0(href="https://www.parquesnacionales.gov.co/portal/es/sistema-nacional-de-areas-protegidas-sinap/mapa-sinap/" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p Ingresa aquí
+                  a.boton.me-3.indicador__container(href="https://www.parquesnacionales.gov.co/portal/es/sistema-nacional-de-areas-protegidas-sinap/mapa-sinap/" target="_blank")
+                    span Ver más
+                    i.fas.fa-link
+                  
     
     .row
       .col-12.col-md-6(data-aos="fade-right")

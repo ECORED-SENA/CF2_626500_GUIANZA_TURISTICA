@@ -26,13 +26,13 @@
     p.mb-5 Definido por la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura UNESCO, como “el legado cultural  que se recibe del pasado, que vivimos en el presente y que transmitiremos a las generaciones futuras”, el concepto de patrimonio es muy amplio, pues va desde el patrimonio declarado, hasta lo que se considera valioso para cada uno de nosotros (UNESCO, 2021).  De esta manera, se debe tener claridad en los siguientes conceptos que se presentan a continuación:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-10.col-lg-5.mb-3.mb-md-3.mb-lg-0(data-aos="fade-right")
         .bgr_2.p-5.h-100
           h3.mb-5 Patrimonio cultural
           figure.mb-4
             img(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
           p.mb-0  Según la Ley General de Cultura, el patrimonio cultural de la nación está constituido por todos los bienes materiales, manifestaciones inmateriales, productos y representaciones de la cultura que son expresión de la nacionalidad colombiana (Congreso de Colombia, 2008). Este, a su vez, puede ser patrimonio cultural material o tangible (mueble o inmueble), e inmaterial o intangible.
-      .col-12.col-md-5(data-aos="fade-left")
+      .col-12.col-md-10.col-lg-5(data-aos="fade-left")
         .bgr_3.p-5.h-100
           h3.mb-5 Patrimonio natural
           figure.mb-4
@@ -98,12 +98,12 @@
           img(src='@/assets/curso/tema2/t2-6.png', alt='Texto que describa la imagen')
 
     .row.mb-5 
-      .col-12.col-md-4(data-aos="flip-up")
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
         figure.mb-1
           img(src='@/assets/curso/tema2/t2-7.png', alt='Texto que describa la imagen')
         .bgr_7.p-3
           h4.mb-0.text-center Tolú y Coveñas
-      .col-12.col-md-4(data-aos="flip-down")
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-down")
         figure.mb-1
           img(src='@/assets/curso/tema2/t2-8.png', alt='Texto que describa la imagen')
         .bgr_7.p-3
@@ -141,31 +141,31 @@
       .col-12.col-md-8(data-aos="zoom-out")
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Edad Prehistórica").p-3
-            .col-md-6
+            .col-md-6.mb-3.mb-md-0
               figure
                 img(src='@/assets/curso/tema2/t2-13.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               p Representada en arte rupestre, objetos y arquitectura lítica.
           .row(numero="2" titulo="Edad Antigua").p-3
-            .col-md-6
+            .col-md-6.mb-3.mb-md-0
               figure
                 img(src='@/assets/curso/tema2/t2-14.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               p Civilizaciones antiguas, como        Mesopotamia, Egipto, China, India, Mesoamérica, Grecia, Roma, entre otras.
           .row(numero="3" titulo="Edad Media").p-3
-            .col-md-6
+            .col-md-6.mb-3.mb-md-0
               figure
                 img(src='@/assets/curso/tema2/t2-15.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               p El arte y la arquitectura románica y gótica marcan este periodo artístico de la humanidad.
           .row(numero="4" titulo="Edad Moderna").p-3
-            .col-md-6
+            .col-md-6.mb-3.mb-md-0
               figure
                 img(src='@/assets/curso/tema2/t2-16.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               p Movimientos como el Renacimiento y la Ilustración, estilos artísticos como el  Barroco y el Rococó.
           .row(numero="5" titulo="Edad Contemporánea").p-3
-            .col-md-6
+            .col-md-6.mb-3.mb-md-0
               figure
                 img(src='@/assets/curso/tema2/t2-17.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0

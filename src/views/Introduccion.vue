@@ -9,9 +9,9 @@
           i.fas.fa-info.colr
       h1 Introducción
     
-    p.mb-5 Bienvenido al componente formativo <b>Las ciencias al servicio de la guianza:</b>
+    p.mb-5(data-aos="fade-right") Bienvenido al componente formativo <b>Las ciencias al servicio de la guianza:</b>
 
-    figure
+    figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/PNzBh5kF0NQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     

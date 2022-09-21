@@ -7,10 +7,10 @@
         span 1
       h1 Documentación para el turismo
     
-    p.mb-5        El acercamiento a las Ciencias Sociales (en este caso, la Historia Universal y de Colombia) permite la exploración hacia una fuente de conocimientos amplia y diversa, pues no solo son pilares fundamentales en la educación, sino que implican el devenir mismo de la humanidad y de lo que somos actualmente como nación.
+    p.mb-5 El acercamiento a las Ciencias Sociales (en este caso, la Historia Universal y de Colombia) permite la exploración hacia una fuente de conocimientos amplia y diversa, pues no solo son pilares fundamentales en la educación, sino que implican el devenir mismo de la humanidad y de lo que somos actualmente como nación.
 
     figure(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/t1-1.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/tema1/t1-1.jpg', alt='Texto que describa la imagen')
     
     separador
 
@@ -27,17 +27,17 @@
     p.mb-5 Para ello, y teniendo en cuenta que la versión de la historia que ha llegado a la actualidad es la eurocentrista, es indispensable hacer un acercamiento preliminar a cada una de sus etapas cronológicas, como a continuación verá:
 
     .tarjeta.bgr.p-4(data-aos="flip-left")
-      PasosB.color-acento-contenido
+      LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="Prehistoria").d-flex.justify-content-around.align-items-center
           .col-md-5.mb-4.mb-md-0
-            p.mb-0 Se comprende como “[el] periodo de la humanidad anterior a todo documento escrito y que solo se conoce por determinados vestigios, como construcciones, instrumentos, huesos humanos o de animales, [y otros]” (Real Academia Española, 2020).
+            p Se comprende como “[el] periodo de la humanidad anterior a todo documento escrito y que solo se conoce por determinados vestigios, como construcciones, instrumentos, huesos humanos o de animales, [y otros]” (Real Academia Española, 2020).
           .col-md-4.mt-0.mt-md-5.mb-0.mb-md-5
             figure
               img(src='@/assets/curso/tema1/t1-3.png', alt='Texto que describa la imagen')
         .row(titulo="Edad Antigua").d-flex.justify-content-around.align-items-center
           .col-md-5.mb-4.mb-md-0
-            p.mb-0 Tras la aparición del hombre en la tierra y el devenir de varias dinámicas a lo largo de los milenios, como pasar de ser nómada y cazador a sedentario y establecerse en un territorio, descubrir la agricultura y el intercambio de productos (origen del comercio).
-          .col-md-4
+            p Tras la aparición del hombre en la tierra y el devenir de varias dinámicas a lo largo de los milenios, como pasar de ser nómada y cazador a sedentario y establecerse en un territorio, descubrir la agricultura y el intercambio de productos (origen del comercio).
+          .col-md-4.mt-0.mt-md-5.mb-0.mb-md-5
             figure
               img(src='@/assets/curso/tema1/t1-4.png', alt='Texto que describa la imagen')
         .row(titulo="Edad Media").d-flex.justify-content-around.align-items-center
@@ -82,7 +82,7 @@ export default {
         titulo: '',
         texto:
           'En este espacio, se ilustra cómo la historia de manera cronológica ha logrado intervenir en nuestra cultura colombiana; se comienza con la Prehistoria, que, al igual que en el resto del mundo, el actual territorio colombiano tiene un amplio pasado prehistórico.',
-        imagen: require('@/assets/curso/tema1/t1-8.png'),
+        imagen: require('@/assets/curso/tema1/t1-8.jpg'),
       },
       {
         titulo: '',
@@ -94,7 +94,7 @@ export default {
         titulo: '',
         texto:
           'Poco a poco, se fue ampliando la visión del mismo territorio, por ello, entonces, se da el Descubrimiento y la Conquista; aunque efímero (1492-1550), este periodo histórico marca el encuentro de las culturas europea y nativa americana. La primera ciudad construida por españoles en tierra firme americana fue Santa María La Antigua del Darién (Unguía, Chocó), en 1510 (Instituto Colombiano de Antropología e Historia, 2019).',
-        imagen: require('@/assets/curso/tema1/t1-10.png'),
+        imagen: require('@/assets/curso/tema1/t1-10.jpg'),
       },
       {
         titulo: '',
@@ -118,7 +118,7 @@ export default {
         titulo: '',
         texto:
           'Los periodos antes descritos demuestran la evolución y adaptación de la sociedad a sus propias realidades, lo que además abre la puerta a reconocer las posibilidades del mundo que nos rodea y cómo, a través de la historia, nuestros inicios fueron reconociendo cada uno de estos hitos para sus progresos, luchas y vivencias.',
-        imagen: require('@/assets/curso/tema1/t1-14.png'),
+        imagen: require('@/assets/curso/tema1/t1-14.jpg'),
       },
     ],
   }),
