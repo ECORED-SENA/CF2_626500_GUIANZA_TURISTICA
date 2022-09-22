@@ -16,7 +16,7 @@
     p.mt-5 Siendo un tema de estudio tan relevante, debe considerarse de vital importancia para comprender las dinámicas y características sociales de las naciones del mundo.
 
     figure(data-aos="zoom-in")
-      img(src='@/assets/curso/tema2/t2-1.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/tema2/t2-1.jpg', alt='Texto que describa la imagen')
     
     separador
 

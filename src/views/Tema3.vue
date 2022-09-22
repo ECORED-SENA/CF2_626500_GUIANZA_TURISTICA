@@ -17,48 +17,48 @@
         .bgr_3.p-3.h-100
           p.mb-0 Desde los albores de la humanidad, la necesidad de ubicar los recursos, los peligros, los semejantes y demás elementos ha permitido la concepción del espacio como dimensión. No hay una línea constante y homogénea que marque el desarrollo histórico de la geografía, o que marque los límites conceptuales de qué es geografía y qué no. Por tanto, permanece el debate, inclusive entre expertos, debido a que, como geografía, es posible incluir una serie de conocimientos, técnicas, prácticas y métodos para referirse al espacio y a la localización (Ortega, 2004). Considere lo que se comparte a continuación.
 
-    .tarjeta.bgr_18.p-md-4.mb-5(data-aos="flip-up")
+    .tarjeta.bgr_18.p-lg-4.mb-5(data-aos="flip-up")
       SlyderA.p-md-5
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.p-5.p-md-0.p-lg-5.justify-content-center.pst_6
+          .col-md-5.col-lg-6.mb-4.mb-md-0
             p Tradicionalmente, la geografía se considera una serie de datos que, de memoria, dan cuenta de nombres de lugares, accidentes geográficos, ríos, capitales, ubicación.
-          .col-md-6
+          .col-md-4.col-lg-6
             figure
               img(src='@/assets/curso/tema3/t3-2.png', alt='Texto que describa la imagen') 
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.p-5.p-md-0.p-lg-5.justify-content-center.pst_6
+          .col-md-5.col-lg-6.mb-4.mb-md-0
             p Esto se convierte en una información básica, que localiza objetos en el espacio, asociándolos también a mapas que representan esa información. 
-          .col-md-6
+          .col-md-4.col-lg-6
             figure
               img(src='@/assets/curso/tema3/t3-3.png', alt='Texto que describa la imagen') 
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.p-5.p-md-0.p-lg-5.justify-content-center.pst_6
+          .col-md-5.col-lg-6.mb-4.mb-md-0
             p Para otros, la geografía puede ser un estudio de los componentes físico-bióticos de un espacio determinado, sin vinculación con las dinámicas sociales, convirtiéndola en una descripción monotemática (altura, clima, extensión, etc.). 
-          .col-md-6
+          .col-md-4.col-lg-6
             figure
               img(src='@/assets/curso/tema3/t3-4.png', alt='Texto que describa la imagen') 
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.p-5.p-md-0.p-lg-5.justify-content-center.pst_6
+          .col-md-5.col-lg-6.mb-4.mb-md-0
             p Mientras que para otros el conocimiento geográfico lo ofrecen los relatos de aventureros, exploradores y científicos, a través de descripciones y crónicas que indican localizaciones y actividades de otros grupos humanos.
-          .col-md-6
+          .col-md-4.col-lg-6
             figure
               img(src='@/assets/curso/tema3/t3-5.png', alt='Texto que describa la imagen') 
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.p-5.p-md-0.p-lg-5.justify-content-center.pst_6
+          .col-md-5.col-lg-6.mb-4.mb-md-0
             p Todo lo anterior permite entender que la geografía es una suma de prácticas cotidianas y el estudio del espacio geográfico que se produce por las relaciones sociedad-naturaleza configuradas en los elementos bióticos, abióticos y antrópicos (humano-social).
-          .col-md-6
+          .col-md-4.col-lg-6
             figure
               img(src='@/assets/curso/tema3/t3-6.png', alt='Texto que describa la imagen') 
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.p-5.p-md-0.p-lg-5.justify-content-center.pst_6
+          .col-md-5.col-lg-6.mb-4.mb-md-0
             p Por tanto, como se plantea por parte del IGAC (2011), “la geografía privilegia el análisis espacial de los fenómenos, eventos, procesos y realidades, tanto sociales como ambientales” (p. 4).
-          .col-md-6
+          .col-md-4.col-lg-6
             figure
               img(src='@/assets/curso/tema3/t3-7.png', alt='Texto que describa la imagen') 
-        .row.p-5
-          .col-md-6.mb-4.mb-md-0
+        .row.p-5.p-md-0.p-lg-5.justify-content-center.pst_6
+          .col-md-5.col-lg-6.mb-4.mb-md-0
             p El conocimiento geográfico debe y puede aportar a conocer, interpretar, explicar y plantear soluciones a las problemáticas presentes en esa relación sociedad-naturaleza, de esta manera, se hace necesario aterrizar este concepto en Colombia.
-          .col-md-6
+          .col-md-4.col-lg-6
             figure
               img(src='@/assets/curso/tema3/t3-8.png', alt='Texto que describa la imagen') 
         
@@ -144,7 +144,7 @@
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema3/t3-15.svg")
             .col
-              .row
+              .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.d-flex.align-items-center
                   div
                     h3.mb-1 Profundiza
