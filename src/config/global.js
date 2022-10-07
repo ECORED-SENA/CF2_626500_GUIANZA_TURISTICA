@@ -229,7 +229,8 @@ export default {
       referencia:
         'Sociedad Geográfica de Colombia. (s. f.). Contenido geográfico. ESGEO: Escuela Nacional de Geografía.',
       tipo: 'Página web',
-      link: 'https://sogeocol.edu.co/contenido_geo.htm',
+      link:
+        'http://observatoriogeograficoamericalatina.org.mx/sociedadgeograficadecolombia.html',
     },
     {
       tema:
@@ -396,8 +397,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

@@ -78,7 +78,7 @@
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-left")
         figure.mb-3
           img(src='@/assets/curso/tema3/t3-32.png', alt='Texto que describa la imagen')
-        p.p-2 <b>En Colombia</b>, la reflexión sobre el espacio se ve reflejada en las intervenciones de grupos humanos en el medio natural, donde había un intento de mantener el equilibrio con el medio natural. Con la llegada de los conquistadores europeos, las geografías descriptivas se ampliaron mediante la exploración y el conocimiento del “Nuevo Mundo”.
+        p.p-2 <b>En Colombia</b>, la reflexión sobre el espacio se ve reflejada de las intervenciones de grupos humanos y su intento de mantener el equilibrio con el medio natural. Con la llegada de los conquistadores europeos, las geografías descriptivas se ampliaron mediante la exploración y el conocimiento del “Nuevo Mundo”.
         TarjetaAudio.color-acento-contenido.mb-3.pst_5(
           :audio="require('@/assets/componentes/audios/01.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -86,7 +86,7 @@
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
         figure.mb-3
           img(src='@/assets/curso/tema3/t3-33.png', alt='Texto que describa la imagen')
-        p.p-2 <b>En el siglo XIX</b>, personajes como Francisco José de Caldas elaboran trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; sumado a ello, el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan el conocimiento geográfico en un lugar de importancia para la construcción de un nuevo país.
+        p.p-2 <b>En el siglo XIX</b>, Francisco José de Caldas elaboro trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; a esto, se sumado el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan el conocimiento geográfico en un lugar de importancia para la constitución de un nuevo país.
 
         TarjetaAudio.color-acento-contenido.mb-3(
           :audio="require('@/assets/componentes/audios/02.mp3')"
@@ -120,7 +120,7 @@
         .bgr_20.p-4.h-100
           figure.d-flex.justify-content-center.mb-3.mb-md-5
             img.img130(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
-          p.mb-0 <b>Localizar:</b> Se fijan límites y puntos exactos dónde hallar una persona u objeto (RAE, 2011), se pueden utilizar coordenadas geográficas o características del entorno.
+          p.mb-0 <b>Localizar:</b> se fijan límites y puntos exactos dónde hallar una persona u objeto (RAE, 2011), se pueden utilizar coordenadas geográficas o características del entorno.
     
     p.mb-5 Al comprender la diferencia entre ubicarse, orientarse o localizar, se facilita el acercamiento a la cartografía, definida como sustantivo femenino que referencia una ciencia que trata la comunicación gráfica en documentos conocidos como cartas, o cartas de navegación, los cuales están estrechamente emparentados con los mapas. La construcción mental de una imagen para la tierra se comprende también como abstracción, racionalización del espacio. Esta fase corresponde también a la estandarización de códigos, lenguajes y símbolos, los cuales se configuran como convenciones que permiten la comunicación acerca de un área específica y sus componentes o características, de acuerdo con el objeto que motive la construcción del mapa.
 
@@ -133,9 +133,9 @@
       .col-12.col-md-5(data-aos="fade-left")
         p La escala determina la relación entre un elemento o espacio físico y su representación en un documento o mapa. Por tanto, la escala es el valor por medio del cual se comprenden las dimensiones reales de una representación cartográfica.  Conocer la escala de un mapa permite medir distancias, determinar áreas y realizar comparaciones entre diferentes objetos. 
         p <b>Factor Escala:</b> escala verdadera / escala principal o nominal.  La escala puede expresarse de la siguiente manera (Robinson, Sale y Morrison, 1978).
-        p <b>Escala numérica:</b> Es una fracción o razón, como se muestra a continuación, donde el numerador se denomina módulo y el denominador, fracción representativa:
+        p <b>Escala numérica:</b> es una fracción o razón, como se muestra a continuación, donde el numerador se denomina módulo y el denominador, fracción representativa:
         p 1:10.000, 1/10.000
-        p En ambos casos, la escala se lee en diez mil y su interpretación es la siguiente: una unidad de distancia en el mapa (Ejemplo: 1 mm o 1 cm equivale a 10.000 unidades en el terreno (Ej. 10.000 mm o 10.000 cm).
+        p En ambos casos, la escala se lee en diez mil y su interpretación es la siguiente: una unidad de distancia en el mapa (Ejemplo: 1 mm o 1 cm equivale a 10.000 unidades en el terreno Ej. 10.000 mm o 10.000 cm).
 
     .row.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10
@@ -177,7 +177,7 @@
             span Johnston define el paisaje como la “porción de tierra o de territorio que el ojo puede abarcar con un simple vistazo, incluyendo todos los aspectos vistos, especialmente, en su aspecto pictórico”.
             br
             br
-            p <b>Ejemplo:</b> Paisaje que genera los Cerros Orientales de Bogotá para la ciudad.
+            p <b>Ejemplo:</b> paisaje que genera los Cerros Orientales de Bogotá para la ciudad.
         tr
           th.bgr_15.text-center REGIÓN
           td.bgr_14 Aunque hay varias definiciones, en general, es un espacio con características de homogeneidad, donde hay una “integración de elementos físicos, sociales y económicos” (Ramírez y López, p. 119). Hay varios tipos de regiones.
@@ -293,15 +293,15 @@
               figure
                 img(src='@/assets/curso/tema3/t3-25.svg', alt='Texto que describa la imagen')
 
-        .bgr_23.p-3(x="36.2%" y="67.3%" numero="1").position-relative
+        .bgr_23.p-3(x="35.2%" y="67.3%" numero="1").position-relative
           .h5.mb-2 Región Andina 
           p Ubicada en los Andes colombianos, en el centro del país, tiene ecosistemas de páramo, lo que la hace rica en fuentes hídricas. 
           img.img30.pst_4(src='@/assets/curso/tema3/t3-26.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="65.8%" y="78%" numero="2").position-relative
+        .bgr_23.p-3(x="63.8%" y="78%" numero="2").position-relative
           .h5.mb-2 Región Amazónica 
           p Ubicada en la zona sur del país, la Amazonía colombiana es una región con un clima cálido, que presenta abundantes lluvias, en el que se desarrolla la selva tropical, así como diversidad de fauna y flora. 
           img.img30.pst_4(src='@/assets/curso/tema3/t3-27.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="43.9%" y="20.4%" numero="3").position-relative
+        .bgr_23.p-3(x="42.9%" y="20.4%" numero="3").position-relative
           .h5.mb-2 Región Caribe  
           p Ubicada al norte del país, goza de un clima principalmente tropical, aunque hay variaciones, como en la zona de la Guajira, donde el clima es desértico, en el que es muy común encontrar especies de cactus adaptadas a las altas temperaturas y la escasez de agua.  
           img.img30.pst_4(src='@/assets/curso/tema3/t3-28.svg', alt='Texto que describa la imagen')
@@ -309,11 +309,11 @@
           .h5.mb-2 Región Insular 
           p Una característica de esta región, la cual está formada por islas e islotes, es el clima tropical y el seco, con unas temperaturas que van desde los 20 ºC hasta los 30 ºC o 40 ºC, además, en ella se dan temporadas de lluvia y humedad y épocas secas.   
           img.img30.pst_4(src='@/assets/curso/tema3/t3-29.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="64%" y="42.2%" numero="5").position-relative
+        .bgr_23.p-3(x="62%" y="42.2%" numero="5").position-relative
           .h5.mb-2 Región Orinoquía 
-          p Ubicada en el oriente colombiano, en esta región se da un clima cálido y seco, en el que predomina la vegetación de sabana y pastos naturales; existen especies vegetales como el guayacán amarillo, las ceibas, el epifitas, las gramíneas o las palmeras de moriche.    
+          p Ubicada en el oriente colombiano, en esta región se da un clima cálido y seco, en el que predomina la vegetación de sabana y pastos naturales; existen especies vegetales como el guayacán amarillo, las ceibas, las epifitas, las gramíneas o las palmeras de moriche.    
           img.img30.pst_4(src='@/assets/curso/tema3/t3-30.svg', alt='Texto que describa la imagen')
-        .bgr_23.p-3(x="39%" y="47%" numero="6").position-relative
+        .bgr_23.p-3(x="38%" y="47%" numero="6").position-relative
           .h5.mb-2 Región Pacífica 
           p Esta región se ubica en la zona occidental del país, posee un clima tropical con una temperatura media mensual de 24 °C, aproximadamente, y una alta humedad. En su hábitat, abundan especies marinas, como cachalotes, ballenas jorobadas, tiburones y mojarras, camarones y cangrejos. También, entre los animales terrestres más importantes, están el oso hormiguero, el jabalí, el mico tití, el tigrillo, el perezoso, el caimán de agua dulce, el águila harpía, además de pequeños anfibios y reptiles.     
           img.img30.pst_4(src='@/assets/curso/tema3/t3-31.svg', alt='Texto que describa la imagen')

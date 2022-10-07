@@ -31,7 +31,7 @@
           h3.mb-5 Patrimonio cultural
           figure.mb-4
             img(src='@/assets/curso/tema2/t2-2.png', alt='Texto que describa la imagen')
-          p.mb-0  Según la Ley General de Cultura, el patrimonio cultural de la nación está constituido por todos los bienes materiales, manifestaciones inmateriales, productos y representaciones de la cultura que son expresión de la nacionalidad colombiana (Congreso de Colombia, 2008). Este, a su vez, puede ser patrimonio cultural material o tangible (mueble o inmueble), e inmaterial o intangible.
+          p.mb-0  Según la Ley General de Cultura, el patrimonio cultural de la nación está constituido por todos los bienes materiales, manifestaciones inmateriales, productos y representaciones de la cultura que son expresión de la nacionalidad colombiana (Congreso de Colombia, 2008). Este, a su vez, puede ser patrimonio cultural, material o tangible (mueble o inmueble), e inmaterial o intangible.
       .col-12.col-md-10.col-lg-5(data-aos="fade-left")
         .bgr_3.p-5.h-100
           h3.mb-5 Patrimonio natural
@@ -119,7 +119,7 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.3 Arte, estilos, movimientos 
+      h2 2.3 Arte. Estilos, movimientos 
 
     p.mb-5 Cuando se reconoce cada uno de los momentos de la historia, se logra profundizar en cómo acontece la cultura alrededor de sus manifestaciones y posibilidades para la sociedad; de esta manera, se precisa la importancia del arte, el cual se define como:
 

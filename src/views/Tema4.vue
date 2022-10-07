@@ -42,19 +42,25 @@
         p El ecosistema es definido como el complejo de comunidades, poblaciones e individuos de diferentes especies que se puede denominar como unidad por la forma como la materia se organiza y circula por diferentes niveles en el tiempo.  Es así como las moléculas de agua, los átomos de carbono o nitrógeno circulan a través de los organismos cuando estos los ingieren, luego, al desechar los residuos, estos se descomponen y posteriormente son absorbidos por el sistema de raíces de las plantas, y luego son nuevamente ofrecidos en frutos o diferentes formas. Observe a continuación:
     
     .row.mb-5.justify-content-center
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-12.col-md-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.bgr_11(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-4.svg')})`}")
+            .tarjeta-flip__img.bgr_26.pt-5.pt-sm-3.pt-md-5.px-md-3
+              figure.d-flex.justify-content-center
+                img.img300(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
+              h2.mt-5.mt-sm-3.mt-md-5.text-center Biodiversidad
             .tarjeta-flip__contenido.px-5.pst_3
               p <b>Biodiversidad:</b> Se entiende como el fenómeno, la singularidad, la variedad y diversificación en las formas de vida, subsistencia y adaptabilidad para sobrevivir en un ecosistema con determinadas condiciones ambientales.  
               p.mb-0 Representa la diversidad de especies animales y vegetales que se interrelacionan con el medio que los rodea.
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-12.col-md-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.bgr_12(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/t4-5.svg')})`}")
+            .tarjeta-flip__img.bgr_26.pt-5.pt-sm-3.pt-md-5.px-md-3
+              figure.d-flex.justify-content-center
+                img.img300(src='@/assets/curso/tema4/2.svg', alt='Texto que describa la imagen')
+              h2.mt-5.mt-sm-3.mt-md-5.text-center Ecoevolución
             .tarjeta-flip__contenido.px-5.pst_3
               p <b>Ecoevolución:</b> Es el proceso adaptativo entre dos especies que conviven e interactúan, que les permite ajustar su forma o conducta para responder a la necesidad o dependencia de la otra especie. 
               p.mb-0 El turismo ecológico, aunque recientemente nace por la necesidad de valorar y contemplar la fauna y la flora, no solo por conocer, sino por preservar y cuidar el medio ambiente desde una mirada diferente.
