@@ -86,7 +86,7 @@
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
         figure.mb-3
           img(src='@/assets/curso/tema3/t3-33.png', alt='Texto que describa la imagen')
-        p.p-2 <b>En el siglo XIX</b>, Francisco José de Caldas elaboro trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; a esto, se sumado el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan el conocimiento geográfico en un lugar de importancia para la constitución de un nuevo país.
+        p.p-2 <b>En el siglo XIX</b>, Francisco José de Caldas elaboró trabajos más allá de enfoques políticos, abordando características de distintos territorios del Virreinato de Nueva Granada; a esto, se suma el enorme aporte de la Expedición Botánica dirigida por José Celestino Mutis, y la visita de Humboldt (1801). Las diferentes respuestas al proceso de independencia colocan el conocimiento geográfico en un lugar de importancia para la constitución de un nuevo país.
 
         TarjetaAudio.color-acento-contenido.mb-3(
           :audio="require('@/assets/componentes/audios/02.mp3')"
